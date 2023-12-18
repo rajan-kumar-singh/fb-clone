@@ -1,0 +1,129 @@
+.messagesender{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 4px 2px 10px #ccc;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.messagesender-top{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.messagesender-top form{
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.messagesender-top form input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+.messagesender_buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+}
+.messngeOption{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.messngeOption:hover{
+    background-color: whitesmoke;
+}
+.messngeOption p{
+    margin-left: 10px;
+}
+
+
+/* //modal poop; */
+
+.modal_pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin:0 auto ;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.modalHanding{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.modalHanding .MuiIconButton-root {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+
+}
+.modalHander_top{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+.modalHander_top h5{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.modalBody textarea{
+    width: 100%;
+    min-height: 100px;
+    border: 0px;
+    font-size: 25px;
+    outline: 0;
+    padding: 10px 0px;
+    font-family: sans-serif;
+
+}
+.modalFooterLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+
+}
+.post_submit{
+    width: 100%;
+    background-color: #2391fa;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.modalFooterRigth{
+    position: absolute;
+    right: 20px;
+    bottom: 75px;
+    display: flex;
+    gap: 20px;
+  
+}
